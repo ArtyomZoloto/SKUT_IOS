@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8E41591226F146800D528A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E41590226F146800D528A6 /* AppDelegate.m */; };
-		F8E41594226F146800D528A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E41593226F146800D528A6 /* ViewController.m */; };
-		F8E41597226F146800D528A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E41595226F146800D528A6 /* Main.storyboard */; };
-		F8E41599226F146900D528A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E41598226F146900D528A6 /* Assets.xcassets */; };
-		F8E4159C226F146900D528A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E4159A226F146900D528A6 /* LaunchScreen.storyboard */; };
-		F8E4159F226F146900D528A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4159E226F146900D528A6 /* main.m */; };
+		F872DF1F22708EE600AAD7B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F872DF1E22708EE600AAD7B1 /* AppDelegate.m */; };
+		F872DF2222708EE600AAD7B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F872DF2122708EE600AAD7B1 /* ViewController.m */; };
+		F872DF2522708EE600AAD7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F872DF2322708EE600AAD7B1 /* Main.storyboard */; };
+		F872DF2722708EE600AAD7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F872DF2622708EE600AAD7B1 /* Assets.xcassets */; };
+		F872DF2A22708EE600AAD7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F872DF2822708EE600AAD7B1 /* LaunchScreen.storyboard */; };
+		F872DF2D22708EE600AAD7B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F872DF2C22708EE600AAD7B1 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8E4158C226F146800D528A6 /* 27-controls-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "27-controls-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8E4158F226F146800D528A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F8E41590226F146800D528A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F8E41592226F146800D528A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F8E41593226F146800D528A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F8E41596226F146800D528A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8E41598226F146900D528A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8E4159B226F146900D528A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F8E4159D226F146900D528A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8E4159E226F146900D528A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F872DF1A22708EE600AAD7B1 /* 28-UITextField-part2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "28-UITextField-part2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F872DF1D22708EE600AAD7B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F872DF1E22708EE600AAD7B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F872DF2022708EE600AAD7B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F872DF2122708EE600AAD7B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F872DF2422708EE600AAD7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F872DF2622708EE600AAD7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F872DF2922708EE600AAD7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F872DF2B22708EE600AAD7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F872DF2C22708EE600AAD7B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F8E41589226F146800D528A6 /* Frameworks */ = {
+		F872DF1722708EE600AAD7B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F8E41583226F146800D528A6 = {
+		F872DF1122708EE600AAD7B1 = {
 			isa = PBXGroup;
 			children = (
-				F8E4158E226F146800D528A6 /* 27-controls-demo */,
-				F8E4158D226F146800D528A6 /* Products */,
+				F872DF1C22708EE600AAD7B1 /* 28-UITextField-part2 */,
+				F872DF1B22708EE600AAD7B1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F8E4158D226F146800D528A6 /* Products */ = {
+		F872DF1B22708EE600AAD7B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8E4158C226F146800D528A6 /* 27-controls-demo.app */,
+				F872DF1A22708EE600AAD7B1 /* 28-UITextField-part2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8E4158E226F146800D528A6 /* 27-controls-demo */ = {
+		F872DF1C22708EE600AAD7B1 /* 28-UITextField-part2 */ = {
 			isa = PBXGroup;
 			children = (
-				F8E4158F226F146800D528A6 /* AppDelegate.h */,
-				F8E41590226F146800D528A6 /* AppDelegate.m */,
-				F8E41592226F146800D528A6 /* ViewController.h */,
-				F8E41593226F146800D528A6 /* ViewController.m */,
-				F8E41595226F146800D528A6 /* Main.storyboard */,
-				F8E41598226F146900D528A6 /* Assets.xcassets */,
-				F8E4159A226F146900D528A6 /* LaunchScreen.storyboard */,
-				F8E4159D226F146900D528A6 /* Info.plist */,
-				F8E4159E226F146900D528A6 /* main.m */,
+				F872DF1D22708EE600AAD7B1 /* AppDelegate.h */,
+				F872DF1E22708EE600AAD7B1 /* AppDelegate.m */,
+				F872DF2022708EE600AAD7B1 /* ViewController.h */,
+				F872DF2122708EE600AAD7B1 /* ViewController.m */,
+				F872DF2322708EE600AAD7B1 /* Main.storyboard */,
+				F872DF2622708EE600AAD7B1 /* Assets.xcassets */,
+				F872DF2822708EE600AAD7B1 /* LaunchScreen.storyboard */,
+				F872DF2B22708EE600AAD7B1 /* Info.plist */,
+				F872DF2C22708EE600AAD7B1 /* main.m */,
 			);
-			path = "27-controls-demo";
+			path = "28-UITextField-part2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8E4158B226F146800D528A6 /* 27-controls-demo */ = {
+		F872DF1922708EE600AAD7B1 /* 28-UITextField-part2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8E415A2226F146900D528A6 /* Build configuration list for PBXNativeTarget "27-controls-demo" */;
+			buildConfigurationList = F872DF3022708EE600AAD7B1 /* Build configuration list for PBXNativeTarget "28-UITextField-part2" */;
 			buildPhases = (
-				F8E41588226F146800D528A6 /* Sources */,
-				F8E41589226F146800D528A6 /* Frameworks */,
-				F8E4158A226F146800D528A6 /* Resources */,
+				F872DF1622708EE600AAD7B1 /* Sources */,
+				F872DF1722708EE600AAD7B1 /* Frameworks */,
+				F872DF1822708EE600AAD7B1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "27-controls-demo";
-			productName = "27-controls-demo";
-			productReference = F8E4158C226F146800D528A6 /* 27-controls-demo.app */;
+			name = "28-UITextField-part2";
+			productName = "28-UITextField-part2";
+			productReference = F872DF1A22708EE600AAD7B1 /* 28-UITextField-part2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F8E41584226F146800D528A6 /* Project object */ = {
+		F872DF1222708EE600AAD7B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Zolotoverkhov Artem";
 				TargetAttributes = {
-					F8E4158B226F146800D528A6 = {
+					F872DF1922708EE600AAD7B1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = F8E41587226F146800D528A6 /* Build configuration list for PBXProject "27-controls-demo" */;
+			buildConfigurationList = F872DF1522708EE600AAD7B1 /* Build configuration list for PBXProject "28-UITextField-part2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +113,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F8E41583226F146800D528A6;
-			productRefGroup = F8E4158D226F146800D528A6 /* Products */;
+			mainGroup = F872DF1122708EE600AAD7B1;
+			productRefGroup = F872DF1B22708EE600AAD7B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8E4158B226F146800D528A6 /* 27-controls-demo */,
+				F872DF1922708EE600AAD7B1 /* 28-UITextField-part2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F8E4158A226F146800D528A6 /* Resources */ = {
+		F872DF1822708EE600AAD7B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E4159C226F146900D528A6 /* LaunchScreen.storyboard in Resources */,
-				F8E41599226F146900D528A6 /* Assets.xcassets in Resources */,
-				F8E41597226F146800D528A6 /* Main.storyboard in Resources */,
+				F872DF2A22708EE600AAD7B1 /* LaunchScreen.storyboard in Resources */,
+				F872DF2722708EE600AAD7B1 /* Assets.xcassets in Resources */,
+				F872DF2522708EE600AAD7B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F8E41588226F146800D528A6 /* Sources */ = {
+		F872DF1622708EE600AAD7B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E41594226F146800D528A6 /* ViewController.m in Sources */,
-				F8E4159F226F146900D528A6 /* main.m in Sources */,
-				F8E41591226F146800D528A6 /* AppDelegate.m in Sources */,
+				F872DF2222708EE600AAD7B1 /* ViewController.m in Sources */,
+				F872DF2D22708EE600AAD7B1 /* main.m in Sources */,
+				F872DF1F22708EE600AAD7B1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F8E41595226F146800D528A6 /* Main.storyboard */ = {
+		F872DF2322708EE600AAD7B1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F8E41596226F146800D528A6 /* Base */,
+				F872DF2422708EE600AAD7B1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F8E4159A226F146900D528A6 /* LaunchScreen.storyboard */ = {
+		F872DF2822708EE600AAD7B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F8E4159B226F146900D528A6 /* Base */,
+				F872DF2922708EE600AAD7B1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F8E415A0226F146900D528A6 /* Debug */ = {
+		F872DF2E22708EE600AAD7B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		F8E415A1226F146900D528A6 /* Release */ = {
+		F872DF2F22708EE600AAD7B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,35 +281,35 @@
 			};
 			name = Release;
 		};
-		F8E415A3226F146900D528A6 /* Debug */ = {
+		F872DF3122708EE600AAD7B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2B4X9FGD4;
-				INFOPLIST_FILE = "27-controls-demo/Info.plist";
+				INFOPLIST_FILE = "28-UITextField-part2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.zol.-7-controls-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.zol.-8-UITextField-part2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F8E415A4226F146900D528A6 /* Release */ = {
+		F872DF3222708EE600AAD7B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2B4X9FGD4;
-				INFOPLIST_FILE = "27-controls-demo/Info.plist";
+				INFOPLIST_FILE = "28-UITextField-part2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.zol.-7-controls-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.zol.-8-UITextField-part2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8E41587226F146800D528A6 /* Build configuration list for PBXProject "27-controls-demo" */ = {
+		F872DF1522708EE600AAD7B1 /* Build configuration list for PBXProject "28-UITextField-part2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8E415A0226F146900D528A6 /* Debug */,
-				F8E415A1226F146900D528A6 /* Release */,
+				F872DF2E22708EE600AAD7B1 /* Debug */,
+				F872DF2F22708EE600AAD7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8E415A2226F146900D528A6 /* Build configuration list for PBXNativeTarget "27-controls-demo" */ = {
+		F872DF3022708EE600AAD7B1 /* Build configuration list for PBXNativeTarget "28-UITextField-part2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8E415A3226F146900D528A6 /* Debug */,
-				F8E415A4226F146900D528A6 /* Release */,
+				F872DF3122708EE600AAD7B1 /* Debug */,
+				F872DF3222708EE600AAD7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F8E41584226F146800D528A6 /* Project object */;
+	rootObject = F872DF1222708EE600AAD7B1 /* Project object */;
 }
