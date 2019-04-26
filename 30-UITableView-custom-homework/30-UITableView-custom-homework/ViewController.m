@@ -50,10 +50,11 @@
     static const NSString* customerCare = @"customerCare";
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:customerCare];
     if (!cell){
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:customerCare];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:customerCare];
     }
     
-    cell.textLabel.text = self.teams[indexPath.section].participants[indexPath.row];
+    cell.textLabel.text = self.teams[indexPath.section].participants[indexPath.row];\
+    cell.detailTextLabel.text = @"Рабочий крестьянин";
     return cell;
 }
 
