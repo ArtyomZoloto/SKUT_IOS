@@ -31,9 +31,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGFloat x = CGRectGetMaxX(self.view.bounds);
-    CGFloat y = CGRectGetMaxY(self.view.bounds);
-    UITableView* tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, x, y) style:UITableViewStylePlain];
+    CGRect frame = self.view.bounds;
+    UITableView* tableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStylePlain];
     tableView.dataSource = self;
     [self.view addSubview:tableView];
 }
