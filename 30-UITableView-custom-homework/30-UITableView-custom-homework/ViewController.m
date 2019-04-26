@@ -53,7 +53,8 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:customerCare];
     }
     
-    cell.textLabel.text = self.teams[indexPath.section].participants[indexPath.row];\
+    cell.textLabel.text = self.teams[indexPath.section].participants[indexPath.row];
+    cell.detailTextLabel.textColor = [UIColor redColor];
     cell.detailTextLabel.text = @"Рабочий крестьянин";
     return cell;
 }
