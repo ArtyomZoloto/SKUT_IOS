@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88F4B3A02274BE8C00EED0CE /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F4B39F2274BE8C00EED0CE /* AddViewController.m */; };
 		F85BDEBD22730B59002B1498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85BDEBC22730B59002B1498 /* AppDelegate.m */; };
 		F85BDEC022730B59002B1498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85BDEBF22730B59002B1498 /* ViewController.m */; };
 		F85BDEC322730B59002B1498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85BDEC122730B59002B1498 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88F4B39E2274BE8C00EED0CE /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		88F4B39F2274BE8C00EED0CE /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		F85BDEB822730B59002B1498 /* 30-UITableView-custom-homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30-UITableView-custom-homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85BDEBB22730B59002B1498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F85BDEBC22730B59002B1498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				F85BDECA22730B59002B1498 /* main.m */,
 				F85BDED122730B87002B1498 /* AZTeam.h */,
 				F85BDED222730B87002B1498 /* AZTeam.m */,
+				88F4B39E2274BE8C00EED0CE /* AddViewController.h */,
+				88F4B39F2274BE8C00EED0CE /* AddViewController.m */,
 			);
 			path = "30-UITableView-custom-homework";
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F4B3A02274BE8C00EED0CE /* AddViewController.m in Sources */,
 				F85BDEC022730B59002B1498 /* ViewController.m in Sources */,
 				F85BDED322730B87002B1498 /* AZTeam.m in Sources */,
 				F85BDECB22730B59002B1498 /* main.m in Sources */,

@@ -1,24 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qYb-l0-ZDq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Add View Controller-->
+        <scene sceneID="phk-Cg-5gY">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController storyboardIdentifier="addVC" id="qYb-l0-ZDq" customClass="AddViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pXP-wq-9k7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите команду" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-9S-dqj">
+                                <rect key="frame" x="16" y="20" width="153" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Iuu-bn-WV9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahF-KP-zoA">
+                                <rect key="frame" x="0.0" y="49" width="375" height="162"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя нового участника:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48P-aZ-pS4">
+                                <rect key="frame" x="16" y="219" width="184" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="NE3-E4-LDG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Be2-Vn-IM6">
+                                <rect key="frame" x="16" y="248" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6qG-Ms-00y"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mz-AJ-9bY">
+                                <rect key="frame" x="153" y="286" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Добавить"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ahF-KP-zoA" secondAttribute="trailing" id="42V-e7-VO5"/>
+                            <constraint firstItem="ahF-KP-zoA" firstAttribute="leading" secondItem="pXP-wq-9k7" secondAttribute="leading" id="4Q8-6r-1lZ"/>
+                            <constraint firstItem="48P-aZ-pS4" firstAttribute="leading" secondItem="Be2-Vn-IM6" secondAttribute="leading" id="5G7-6r-0Nz"/>
+                            <constraint firstItem="cDh-9S-dqj" firstAttribute="leading" secondItem="48P-aZ-pS4" secondAttribute="leading" id="GLc-FK-sTe"/>
+                            <constraint firstItem="cDh-9S-dqj" firstAttribute="leading" secondItem="pXP-wq-9k7" secondAttribute="leadingMargin" id="Xqt-YN-4kL"/>
+                            <constraint firstItem="48P-aZ-pS4" firstAttribute="top" secondItem="ahF-KP-zoA" secondAttribute="bottom" constant="8" symbolic="YES" id="eC0-Qm-hXH"/>
+                            <constraint firstItem="ahF-KP-zoA" firstAttribute="centerX" secondItem="Be2-Vn-IM6" secondAttribute="centerX" id="ihB-JL-peE"/>
+                            <constraint firstItem="Be2-Vn-IM6" firstAttribute="top" secondItem="48P-aZ-pS4" secondAttribute="bottom" constant="8" symbolic="YES" id="je1-84-eSm"/>
+                            <constraint firstItem="lT5-5h-BDp" firstAttribute="bottom" secondItem="Be2-Vn-IM6" secondAttribute="bottom" constant="389" id="kSm-uK-Hhy"/>
+                            <constraint firstItem="cDh-9S-dqj" firstAttribute="top" secondItem="lT5-5h-BDp" secondAttribute="top" id="yG6-KM-J53"/>
+                            <constraint firstItem="ahF-KP-zoA" firstAttribute="top" secondItem="cDh-9S-dqj" secondAttribute="bottom" constant="8" symbolic="YES" id="zRl-ig-yKu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lT5-5h-BDp"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Nr-Ig-sZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-549.60000000000002" y="-184.85757121439281"/>
         </scene>
     </scenes>
 </document>
