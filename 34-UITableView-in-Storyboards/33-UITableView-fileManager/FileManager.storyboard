@@ -35,6 +35,14 @@
                     <navigationItem key="navigationItem" title="Root View Controller" id="n1H-yO-uPw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nEi-Fb-4jl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gcL-qM-P9p">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <segue destination="T9u-b4-jDv" kind="push" id="JxF-dG-mP4"/>
+                    </connections>
+                </button>
             </objects>
             <point key="canvasLocation" x="-217" y="82"/>
         </scene>
