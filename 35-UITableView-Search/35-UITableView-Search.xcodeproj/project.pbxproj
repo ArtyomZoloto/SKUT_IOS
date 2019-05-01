@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88D0F9802279A525009DB307 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		88DFBBB622776B5D00ACA759 /* 35-UITableView-Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35-UITableView-Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DFBBB922776B5D00ACA759 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88DFBBBA22776B5D00ACA759 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 				88DFBBCF22776C0A00ACA759 /* AZTableViewController.h */,
 				88DFBBD022776C0A00ACA759 /* AZTableViewController.m */,
 				88DFBBDC22777F2B00ACA759 /* Model */,
+				88D0F9802279A525009DB307 /* README.md */,
 			);
 			path = "35-UITableView-Search";
 			sourceTree = "<group>";

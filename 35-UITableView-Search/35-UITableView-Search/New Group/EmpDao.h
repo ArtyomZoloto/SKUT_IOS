@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface EmpDao : NSObject
 @property (strong, nonatomic) NSArray<Emp*> *employees;
 @property (strong, nonatomic) NSArray<EmpBirthsdayBlock*>* employeesByBirthsdays;
+
+-(NSArray<EmpBirthsdayBlock*>*) dataWithFilter: (NSString*) filter;
 @end
 
 NS_ASSUME_NONNULL_END

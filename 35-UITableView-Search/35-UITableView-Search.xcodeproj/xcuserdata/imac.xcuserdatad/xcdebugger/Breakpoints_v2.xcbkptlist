@@ -26,27 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "35-UITableView-Search/New Group/EmpDao.m"
-            timestampString = "578264969.44261"
+            timestampString = "578412483.1346411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "-employeesByBirthsdays"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "35-UITableView-Search/New Group/EmpDao.m"
-            timestampString = "578264969.443036"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "-employeesByBirthsdays"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +42,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "35-UITableView-Search/New Group/EmpDao.m"
-            timestampString = "578264969.4433351"
+            timestampString = "578412483.1351219"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-employeesByBirthsdays"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "35-UITableView-Search/New Group/EmpDao.m"
+            timestampString = "578412483.135393"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "-employeesByBirthsdays"
             landmarkType = "7">
             <Locations>
@@ -106,13 +106,93 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "35-UITableView-Search/New Group/EmpDao.m"
-            timestampString = "578264969.443632"
+            timestampString = "578412483.135671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "-employeesByBirthsdays"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "35-UITableView-Search/New Group/EmpDao.m"
+            timestampString = "578412483.135937"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-employeesByBirthsdays"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "35-UITableView-Search/AZTableViewController.m"
+            timestampString = "578412965.37261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-numberOfSectionsInTableView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "35-UITableView-Search/New Group/EmpDao.m"
+            timestampString = "578412483.136218"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-dataWithFilter:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[EmpDao dataWithFilter:]"
+                  moduleName = "35-UITableView-Search"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Programming/SKUT_IOS/35-UITableView-Search/35-UITableView-Search/New%20Group/EmpDao.m"
+                  timestampString = "578407039.1858521"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[EmpDao dataWithFilter:]"
+                  moduleName = "35-UITableView-Search"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Programming/SKUT_IOS/35-UITableView-Search/35-UITableView-Search/New%20Group/EmpDao.m"
+                  timestampString = "578407039.1887929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "257">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
