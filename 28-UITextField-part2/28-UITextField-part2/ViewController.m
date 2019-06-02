@@ -29,5 +29,10 @@
 
 
 - (IBAction)submitButton:(id)sender {
+    
+    NSLog(@"phone = %@, email = %@",
+          self.phoneTextField.text,
+          self.emailTextField.text
+          );
 }
 @end
