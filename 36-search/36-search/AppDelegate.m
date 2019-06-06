@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  40-KVC-KVO
+//  36-search
 //
-//  Created by iMac on 02/06/2019.
-//  Copyright © 2019 Zolotoverkhov. All rights reserved.
+//  Created by igor on 29/04/2019.
+//  Copyright © 2019 Artem. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,12 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    UIWindow *window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    self.window = window;
-    UIViewController *vc = [ViewController new];
-    [window setRootViewController:vc];
-    [window setBackgroundColor: [UIColor whiteColor]];
-    [window makeKeyAndVisible];
     return YES;
 }
 

@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, nonatomic)   NSString* lastName;
 @property (strong, nonatomic) NSDate* dateOfBirth;
 @property (assign, nonatomic) Gender gender;
+@property (assign, nonatomic) NSInteger grade;
+
+-(void) reset;
 @end
 
 NS_ASSUME_NONNULL_END

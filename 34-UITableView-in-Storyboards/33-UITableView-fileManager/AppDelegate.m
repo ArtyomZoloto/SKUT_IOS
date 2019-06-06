@@ -17,12 +17,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    self.window = [[UIWindow alloc] initWithFrame: UIScreen.mainScreen.bounds];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    AZFileManagerTableViewController *fmTVC = [[AZFileManagerTableViewController alloc] initWithPath:@"/Users/imac/"];
-//    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:fmTVC];
-//    self.window.rootViewController = nc;
-//    [self.window makeKeyAndVisible];
     return YES;
 }
 

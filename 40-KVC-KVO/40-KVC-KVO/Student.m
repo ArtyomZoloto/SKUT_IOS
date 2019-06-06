@@ -10,4 +10,26 @@
 
 @implementation Student
 
+-(void) reset {
+    [self willChangeValueForKey:@"firstName"];
+    _firstName = nil;
+    [self didChangeValueForKey:@"firstName"];
+    
+    [self willChangeValueForKey:@"lastName"];
+    _lastName = nil;
+    [self didChangeValueForKey:@"lastName"];
+    
+    [self willChangeValueForKey:@"dateOfBirth"];
+    _dateOfBirth = nil;
+    [self didChangeValueForKey:@"dateOfBirth"];
+    
+    [self willChangeValueForKey:@"gender"];
+    _gender = 0;
+    [self didChangeValueForKey:@"gender"];
+    
+    [self willChangeValueForKey:@"grade"];
+    _grade = 0;
+    [self didChangeValueForKey:@"grade"];
+}
+
 @end

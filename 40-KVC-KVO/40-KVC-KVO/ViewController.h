@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Student.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>
+@property (strong, nonatomic) Student* student;
 
 @end
 
