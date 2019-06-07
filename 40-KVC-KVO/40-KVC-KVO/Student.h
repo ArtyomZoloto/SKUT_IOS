@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSDate* dateOfBirth;
 @property (assign, nonatomic) Gender gender;
 @property (assign, nonatomic) NSInteger grade;
+@property (weak, nonatomic) Student* friend;
 
 -(void) reset;
 @end

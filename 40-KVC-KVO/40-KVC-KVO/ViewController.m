@@ -46,7 +46,17 @@
     table.dataSource = self;
     [self.view addSubview: table];
     self.student = [Student new];
+    Student *student1 = [Student new];
+    self.student.friend = student1;
+    Student *student2 = [Student new];
+    student1.friend = student2;
+    Student *student3 = [Student new];
+    student2.friend = student3;
+    student3.friend = self.student;
+    self.students = @[self.student, student1, student2, student3];
     [self addObservers];
+    //                                      st2     st3   self.st  st1
+    [student1 setValue:@"Ivan" forKeyPath:@"friend.friend.friend.firstName"];
     
     UIButton *but = [UIButton buttonWithType:UIButtonTypeSystem];
     [but setTitle:@"reset" forState:UIControlStateNormal];

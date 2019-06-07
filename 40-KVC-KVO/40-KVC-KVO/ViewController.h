@@ -11,6 +11,7 @@
 
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>
 @property (strong, nonatomic) Student* student;
+@property (strong, nonatomic) NSArray<Student*>* students;
 
 @end
 
