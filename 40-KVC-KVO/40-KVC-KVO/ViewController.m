@@ -40,6 +40,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    [self kvcOperators];
+    
+    
     CGRect tableFrame = CGRectMake(0, 20, self.view.bounds.size.width, self.view.bounds.size.height / 2);
     UITableView* table = [[UITableView alloc] initWithFrame:tableFrame style:UITableViewStylePlain];
     table.delegate = self;
@@ -158,5 +163,46 @@
     } else if (selected == 2) {
         self.student.gender = Female;
     }
+}
+
+
+-(void) kvcOperators{
+    NSDateFormatter* df = [NSDateFormatter new];
+    [df setDateFormat:@"dd.MM.yyyy"];
+    
+    Student* s1 = [Student new];
+    s1.firstName = @"Ivan";
+    s1.grade = 10;
+    s1.dateOfBirth = [df dateFromString:@"10.05.1997"];
+    
+    Student* s2 = [Student new];
+    s2.firstName = @"Petr";
+    s2.grade = 11;
+    s2.dateOfBirth = [df dateFromString:@"12.04.1989"];
+    
+    Student* s3 = [Student new];
+    s3.firstName = @"Nadya";
+    s3.grade = 12;
+    s3.dateOfBirth = [df dateFromString:@"07.11.1988"];
+    
+    NSArray *students_arr = @[s1,s2,s3];
+    
+    NSArray<NSString*>* names_arr = [students_arr valueForKeyPath:@"firstName"];
+    NSLog(@"names = %@", names_arr);
+    
+    NSDate *earliest = [students_arr valueForKeyPath:@"@min.dateOfBirth"];
+    NSLog(@"earliest = %@", [df stringFromDate:earliest]);
+    
+    NSDate *oldest = [students_arr valueForKeyPath:@"@max.dateOfBirth"];
+    NSLog(@"oldest = %@", [df stringFromDate:oldest]);
+    
+    NSNumber *avgGrade = [students_arr valueForKeyPath:@"@avg.grade"];
+    NSLog(@"avg grade = %ld", (long)avgGrade.integerValue);
+    
+    NSNumber *maxGrade = [students_arr valueForKeyPath:@"@max.grade"];
+    NSLog(@"max grade = %ld", maxGrade.longValue);
+    
+    NSNumber *sumGrade = [students_arr valueForKeyPath:@"@sum.grade"];
+    NSLog(@"sum grade = %ld", sumGrade.longValue);
 }
 @end
