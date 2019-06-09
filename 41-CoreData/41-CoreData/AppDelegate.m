@@ -7,8 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "UserListTableViewController.h"
+#import "CoursesListTableViewController.h"
 
 @interface AppDelegate ()
+@property (strong, nonatomic) UserListTableViewController *userListTvc;
+@property (strong, nonatomic) UINavigationController *usersNc;
+@property (strong, nonatomic) UITabBarController *mainTbc;
+@property (strong, nonatomic) UINavigationController *coursesNc;
+@property (strong, nonatomic) CoursesListTableViewController *coursesListTvc;
+
 
 @end
 
@@ -18,23 +26,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    
-    NSManagedObject *object = [NSEntityDescription insertNewObjectForEntityForName:@"AZFriend" inManagedObjectContext:self.persistentContainer.viewContext];
-    
-    [object setValue:@"Igor" forKey:@"name"];
-    [object setValue:@(32) forKey:@"age"];
-    
-    NSError *err = nil;
-    
-    BOOL res = [self.persistentContainer.viewContext save:&err];
-    if (!err){
-        if (res){
-            NSLog(@"saved");
-        }
-    }
+    self.userListTvc = [[UserListTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    self.userListTvc.persistentContainer = self.persistentContainer;
+    self.usersNc = [[UINavigationController alloc] initWithRootViewController:self.userListTvc];
+    self.usersNc.tabBarItem.image = [UIImage imageNamed:@"users"];
+    self.mainTbc = [[UITabBarController alloc] init];
     
     
     
+    self.coursesListTvc = [[CoursesListTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    self.coursesNc = [[UINavigationController alloc] initWithRootViewController: self.coursesListTvc];
+    self.coursesNc.tabBarItem.image = [UIImage imageNamed:@"courses"];
+    
+    
+    [self.window setRootViewController:self.mainTbc];
+    self.mainTbc.viewControllers = @[self.usersNc, self.coursesNc];
     return YES;
 }
 

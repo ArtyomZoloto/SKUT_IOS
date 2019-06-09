@@ -8,21 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4247B14022AA88FC002A164A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247B13F22AA88FC002A164A /* AppDelegate.m */; };
-		4247B14322AA88FC002A164A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247B14222AA88FC002A164A /* ViewController.m */; };
 		4247B14622AA88FC002A164A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4247B14422AA88FC002A164A /* Main.storyboard */; };
 		4247B14922AA88FC002A164A /* _1_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4247B14722AA88FC002A164A /* _1_CoreData.xcdatamodeld */; };
 		4247B14B22AA88FD002A164A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4247B14A22AA88FD002A164A /* Assets.xcassets */; };
 		4247B14E22AA88FD002A164A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4247B14C22AA88FD002A164A /* LaunchScreen.storyboard */; };
 		4247B15122AA88FD002A164A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247B15022AA88FD002A164A /* main.m */; };
 		4247B15822AA9014002A164A /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 4247B15722AA9014002A164A /* readme */; };
+		88337D9822AC3AFF00E24B41 /* UserListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88337D9722AC3AFF00E24B41 /* UserListTableViewController.m */; };
+		88337D9B22AC431F00E24B41 /* AddUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88337D9A22AC431F00E24B41 /* AddUserTableViewController.m */; };
+		88337D9E22AD4AEF00E24B41 /* CoursesListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88337D9D22AD4AEF00E24B41 /* CoursesListTableViewController.m */; };
+		88337DA122AD4C0E00E24B41 /* AddCourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88337DA022AD4C0E00E24B41 /* AddCourseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4247B13B22AA88FC002A164A /* 41-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "41-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4247B13E22AA88FC002A164A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4247B13F22AA88FC002A164A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4247B14122AA88FC002A164A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4247B14222AA88FC002A164A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4247B14522AA88FC002A164A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4247B14822AA88FC002A164A /* _1_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _1_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		4247B14A22AA88FD002A164A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +31,14 @@
 		4247B14F22AA88FD002A164A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4247B15022AA88FD002A164A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4247B15722AA9014002A164A /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		88337D9622AC3AFF00E24B41 /* UserListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserListTableViewController.h; sourceTree = "<group>"; };
+		88337D9722AC3AFF00E24B41 /* UserListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserListTableViewController.m; sourceTree = "<group>"; };
+		88337D9922AC431F00E24B41 /* AddUserTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddUserTableViewController.h; sourceTree = "<group>"; };
+		88337D9A22AC431F00E24B41 /* AddUserTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddUserTableViewController.m; sourceTree = "<group>"; };
+		88337D9C22AD4AEF00E24B41 /* CoursesListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoursesListTableViewController.h; sourceTree = "<group>"; };
+		88337D9D22AD4AEF00E24B41 /* CoursesListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoursesListTableViewController.m; sourceTree = "<group>"; };
+		88337D9F22AD4C0E00E24B41 /* AddCourseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCourseTableViewController.h; sourceTree = "<group>"; };
+		88337DA022AD4C0E00E24B41 /* AddCourseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCourseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +71,10 @@
 		4247B13D22AA88FC002A164A /* 41-CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				88337D9922AC431F00E24B41 /* AddUserTableViewController.h */,
+				88337D9A22AC431F00E24B41 /* AddUserTableViewController.m */,
 				4247B13E22AA88FC002A164A /* AppDelegate.h */,
 				4247B13F22AA88FC002A164A /* AppDelegate.m */,
-				4247B14122AA88FC002A164A /* ViewController.h */,
-				4247B14222AA88FC002A164A /* ViewController.m */,
 				4247B14422AA88FC002A164A /* Main.storyboard */,
 				4247B14A22AA88FD002A164A /* Assets.xcassets */,
 				4247B14C22AA88FD002A164A /* LaunchScreen.storyboard */,
@@ -73,6 +82,12 @@
 				4247B15022AA88FD002A164A /* main.m */,
 				4247B14722AA88FC002A164A /* _1_CoreData.xcdatamodeld */,
 				4247B15722AA9014002A164A /* readme */,
+				88337D9622AC3AFF00E24B41 /* UserListTableViewController.h */,
+				88337D9722AC3AFF00E24B41 /* UserListTableViewController.m */,
+				88337D9C22AD4AEF00E24B41 /* CoursesListTableViewController.h */,
+				88337D9D22AD4AEF00E24B41 /* CoursesListTableViewController.m */,
+				88337D9F22AD4C0E00E24B41 /* AddCourseTableViewController.h */,
+				88337DA022AD4C0E00E24B41 /* AddCourseTableViewController.m */,
 			);
 			path = "41-CoreData";
 			sourceTree = "<group>";
@@ -148,10 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88337D9E22AD4AEF00E24B41 /* CoursesListTableViewController.m in Sources */,
+				88337DA122AD4C0E00E24B41 /* AddCourseTableViewController.m in Sources */,
 				4247B14922AA88FC002A164A /* _1_CoreData.xcdatamodeld in Sources */,
-				4247B14322AA88FC002A164A /* ViewController.m in Sources */,
+				88337D9822AC3AFF00E24B41 /* UserListTableViewController.m in Sources */,
 				4247B15122AA88FD002A164A /* main.m in Sources */,
 				4247B14022AA88FC002A164A /* AppDelegate.m in Sources */,
+				88337D9B22AC431F00E24B41 /* AddUserTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
