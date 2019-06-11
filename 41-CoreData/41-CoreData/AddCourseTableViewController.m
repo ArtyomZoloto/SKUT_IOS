@@ -7,6 +7,7 @@
 //
 
 #import "AddCourseTableViewController.h"
+#import "AddCell.h"
 
 @interface AddCourseTableViewController ()
 

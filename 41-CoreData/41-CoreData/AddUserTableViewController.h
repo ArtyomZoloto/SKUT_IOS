@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "Model/AZUser+CoreDataClass.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

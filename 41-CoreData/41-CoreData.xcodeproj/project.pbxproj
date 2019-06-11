@@ -14,6 +14,9 @@
 		4247B14E22AA88FD002A164A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4247B14C22AA88FD002A164A /* LaunchScreen.storyboard */; };
 		4247B15122AA88FD002A164A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247B15022AA88FD002A164A /* main.m */; };
 		4247B15822AA9014002A164A /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 4247B15722AA9014002A164A /* readme */; };
+		42ED8EC822AE556800016298 /* AZUser+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8EC622AE556800016298 /* AZUser+CoreDataClass.m */; };
+		42ED8EC922AE556800016298 /* AZUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8EC722AE556800016298 /* AZUser+CoreDataProperties.m */; };
+		42ED8ECE22AE6F1600016298 /* AddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8ECD22AE6F1600016298 /* AddCell.m */; };
 		88337D9822AC3AFF00E24B41 /* UserListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88337D9722AC3AFF00E24B41 /* UserListTableViewController.m */; };
 		88337D9B22AC431F00E24B41 /* AddUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88337D9A22AC431F00E24B41 /* AddUserTableViewController.m */; };
 		88337D9E22AD4AEF00E24B41 /* CoursesListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88337D9D22AD4AEF00E24B41 /* CoursesListTableViewController.m */; };
@@ -31,6 +34,12 @@
 		4247B14F22AA88FD002A164A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4247B15022AA88FD002A164A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4247B15722AA9014002A164A /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		42ED8EC422AE556800016298 /* AZUser+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		42ED8EC522AE556800016298 /* AZUser+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZUser+CoreDataClass.h"; sourceTree = "<group>"; };
+		42ED8EC622AE556800016298 /* AZUser+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AZUser+CoreDataClass.m"; sourceTree = "<group>"; };
+		42ED8EC722AE556800016298 /* AZUser+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AZUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		42ED8ECC22AE6F1600016298 /* AddCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCell.h; sourceTree = "<group>"; };
+		42ED8ECD22AE6F1600016298 /* AddCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCell.m; sourceTree = "<group>"; };
 		88337D9622AC3AFF00E24B41 /* UserListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserListTableViewController.h; sourceTree = "<group>"; };
 		88337D9722AC3AFF00E24B41 /* UserListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserListTableViewController.m; sourceTree = "<group>"; };
 		88337D9922AC431F00E24B41 /* AddUserTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddUserTableViewController.h; sourceTree = "<group>"; };
@@ -71,6 +80,7 @@
 		4247B13D22AA88FC002A164A /* 41-CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				42ED8ECA22AE557F00016298 /* Model */,
 				88337D9922AC431F00E24B41 /* AddUserTableViewController.h */,
 				88337D9A22AC431F00E24B41 /* AddUserTableViewController.m */,
 				4247B13E22AA88FC002A164A /* AppDelegate.h */,
@@ -88,8 +98,21 @@
 				88337D9D22AD4AEF00E24B41 /* CoursesListTableViewController.m */,
 				88337D9F22AD4C0E00E24B41 /* AddCourseTableViewController.h */,
 				88337DA022AD4C0E00E24B41 /* AddCourseTableViewController.m */,
+				42ED8ECC22AE6F1600016298 /* AddCell.h */,
+				42ED8ECD22AE6F1600016298 /* AddCell.m */,
 			);
 			path = "41-CoreData";
+			sourceTree = "<group>";
+		};
+		42ED8ECA22AE557F00016298 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42ED8EC422AE556800016298 /* AZUser+CoreDataProperties.h */,
+				42ED8EC522AE556800016298 /* AZUser+CoreDataClass.h */,
+				42ED8EC622AE556800016298 /* AZUser+CoreDataClass.m */,
+				42ED8EC722AE556800016298 /* AZUser+CoreDataProperties.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,12 +187,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				88337D9E22AD4AEF00E24B41 /* CoursesListTableViewController.m in Sources */,
+				42ED8ECE22AE6F1600016298 /* AddCell.m in Sources */,
 				88337DA122AD4C0E00E24B41 /* AddCourseTableViewController.m in Sources */,
 				4247B14922AA88FC002A164A /* _1_CoreData.xcdatamodeld in Sources */,
 				88337D9822AC3AFF00E24B41 /* UserListTableViewController.m in Sources */,
 				4247B15122AA88FD002A164A /* main.m in Sources */,
+				42ED8EC922AE556800016298 /* AZUser+CoreDataProperties.m in Sources */,
 				4247B14022AA88FC002A164A /* AppDelegate.m in Sources */,
 				88337D9B22AC431F00E24B41 /* AddUserTableViewController.m in Sources */,
+				42ED8EC822AE556800016298 /* AZUser+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
