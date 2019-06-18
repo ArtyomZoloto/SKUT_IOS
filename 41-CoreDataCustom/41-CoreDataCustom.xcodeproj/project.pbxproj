@@ -10,11 +10,12 @@
 		42ED8EDD22AE787900016298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8EDC22AE787900016298 /* AppDelegate.m */; };
 		42ED8EE022AE787900016298 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8EDF22AE787900016298 /* ViewController.m */; };
 		42ED8EE322AE787900016298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ED8EE122AE787900016298 /* Main.storyboard */; };
-		42ED8EE622AE787900016298 /* _1_CoreDataCustom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8EE422AE787900016298 /* _1_CoreDataCustom.xcdatamodeld */; };
 		42ED8EE822AE787B00016298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42ED8EE722AE787B00016298 /* Assets.xcassets */; };
 		42ED8EEB22AE787B00016298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ED8EE922AE787B00016298 /* LaunchScreen.storyboard */; };
 		42ED8EEE22AE787B00016298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8EED22AE787B00016298 /* main.m */; };
 		42ED8F0322AEAC2500016298 /* AZFriendMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED8F0222AEAC2500016298 /* AZFriendMO.m */; };
+		88A7CFAC22B976E9003409C4 /* AZJeansMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A7CFAB22B976E9003409C4 /* AZJeansMO.m */; };
+		88A7CFB122B97F01003409C4 /* _1_CoreDataCustom.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 88A7CFB022B97F01003409C4 /* _1_CoreDataCustom.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +25,15 @@
 		42ED8EDE22AE787900016298 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42ED8EDF22AE787900016298 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42ED8EE222AE787900016298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42ED8EE522AE787900016298 /* _1_CoreDataCustom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _1_CoreDataCustom.xcdatamodel; sourceTree = "<group>"; };
 		42ED8EE722AE787B00016298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42ED8EEA22AE787B00016298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42ED8EEC22AE787B00016298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42ED8EED22AE787B00016298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42ED8F0122AEAC2500016298 /* AZFriendMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZFriendMO.h; sourceTree = "<group>"; };
 		42ED8F0222AEAC2500016298 /* AZFriendMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZFriendMO.m; sourceTree = "<group>"; };
+		88A7CFAA22B976E9003409C4 /* AZJeansMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZJeansMO.h; sourceTree = "<group>"; };
+		88A7CFAB22B976E9003409C4 /* AZJeansMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZJeansMO.m; sourceTree = "<group>"; };
+		88A7CFB022B97F01003409C4 /* _1_CoreDataCustom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _1_CoreDataCustom.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 				42ED8EFA22AE78F700016298 /* Model */,
 				42ED8EDB22AE787900016298 /* AppDelegate.h */,
 				42ED8EDC22AE787900016298 /* AppDelegate.m */,
+				88A7CFB022B97F01003409C4 /* _1_CoreDataCustom.xcdatamodel */,
 				42ED8EDE22AE787900016298 /* ViewController.h */,
 				42ED8EDF22AE787900016298 /* ViewController.m */,
 				42ED8EE122AE787900016298 /* Main.storyboard */,
@@ -73,7 +77,6 @@
 				42ED8EE922AE787B00016298 /* LaunchScreen.storyboard */,
 				42ED8EEC22AE787B00016298 /* Info.plist */,
 				42ED8EED22AE787B00016298 /* main.m */,
-				42ED8EE422AE787900016298 /* _1_CoreDataCustom.xcdatamodeld */,
 			);
 			path = "41-CoreDataCustom";
 			sourceTree = "<group>";
@@ -83,6 +86,8 @@
 			children = (
 				42ED8F0122AEAC2500016298 /* AZFriendMO.h */,
 				42ED8F0222AEAC2500016298 /* AZFriendMO.m */,
+				88A7CFAA22B976E9003409C4 /* AZJeansMO.h */,
+				88A7CFAB22B976E9003409C4 /* AZJeansMO.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,7 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42ED8EE022AE787900016298 /* ViewController.m in Sources */,
-				42ED8EE622AE787900016298 /* _1_CoreDataCustom.xcdatamodeld in Sources */,
+				88A7CFAC22B976E9003409C4 /* AZJeansMO.m in Sources */,
+				88A7CFB122B97F01003409C4 /* _1_CoreDataCustom.xcdatamodel in Sources */,
 				42ED8EEE22AE787B00016298 /* main.m in Sources */,
 				42ED8EDD22AE787900016298 /* AppDelegate.m in Sources */,
 				42ED8F0322AEAC2500016298 /* AZFriendMO.m in Sources */,
@@ -353,19 +359,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		42ED8EE422AE787900016298 /* _1_CoreDataCustom.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				42ED8EE522AE787900016298 /* _1_CoreDataCustom.xcdatamodel */,
-			);
-			currentVersion = 42ED8EE522AE787900016298 /* _1_CoreDataCustom.xcdatamodel */;
-			path = _1_CoreDataCustom.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 42ED8ED022AE787900016298 /* Project object */;
 }

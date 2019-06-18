@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Model/AZFriendMO.h"
+#import "Model/AZJeansMO.h"
 
 @interface AppDelegate ()
 
@@ -17,16 +18,24 @@
 
 
 - (void)save {
+    
+    
+    AZJeansMO *energieJeans = [NSEntityDescription insertNewObjectForEntityForName:@"AZJeans" inManagedObjectContext:self.persistentContainer.viewContext];
+    energieJeans.brand = @"Energie";
+    energieJeans.size = (NSDecimalNumber*)@32;
+    
     AZFriendMO *friend = [NSEntityDescription insertNewObjectForEntityForName:@"AZFriend" inManagedObjectContext:self.persistentContainer.viewContext];
     
     friend.name = @"Alexey";
-    friend.age = @29;
+    friend.age = (NSDecimalNumber*)@29;
+    friend.jeans = energieJeans;
     
     NSError *error = nil;
     BOOL isSaved = [self.persistentContainer.viewContext save:&error];
     if (isSaved && !error){
         NSLog(@"saved");
     }
+    
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -48,8 +57,12 @@
         return YES;
     }
     for (AZFriendMO *f in arr){
-        NSLog(@"friend name = %@, age = %@", f.name, f.age);
+        NSLog(@"friend name = %@, age = %@, jeansBrand = %@, jeansSize = %@",
+              f.name, f.age, f.jeans.brand, f.jeans.size);
+        NSLog(@"deleting...");
+        [self.persistentContainer.viewContext deleteObject:f];
     }
+    [self.persistentContainer.viewContext save:nil];
     
     return YES;
 }

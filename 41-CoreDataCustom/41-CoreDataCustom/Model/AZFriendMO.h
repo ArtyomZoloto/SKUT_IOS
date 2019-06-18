@@ -10,9 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class AZJeansMO;
+
 @interface AZFriendMO : NSManagedObject
-@property (nullable, nonatomic, copy) NSString *name;
-@property (nullable, nonatomic, copy) NSDecimalNumber *age;
+@property (nullable, nonatomic, retain) NSString *name;
+@property (nullable, nonatomic, retain) NSDecimalNumber *age;
+@property (nullable, nonatomic, retain) AZJeansMO *jeans;
 @end
 
 NS_ASSUME_NONNULL_END

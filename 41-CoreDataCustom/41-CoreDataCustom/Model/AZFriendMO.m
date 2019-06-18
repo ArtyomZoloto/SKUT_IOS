@@ -11,4 +11,5 @@
 @implementation AZFriendMO
 @dynamic name;
 @dynamic age;
+@dynamic jeans;
 @end
